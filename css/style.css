@@ -749,9 +749,12 @@ body {
   
 }
 .footer-btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 77px;
   height: 24px;
-  margin-right: 16px;
+  gap:  16px;
 
   
   
@@ -773,13 +776,13 @@ body {
 }
 .btn-icon {
   
-  color: #ffffff;
+  
+  
   position: absolute;
+  right: 24px;
   top: 50%;
   transform: translateY(-50%);
-  
-  
- 
+  fill: #ffffff;
   
 }
 .footer-btn:hover,
